@@ -1,0 +1,10 @@
+{
+  "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
+  "schematics": {
+    "fcc": {
+      "description": "John's Custom Component Schematic For NGX Formly Framework.",
+      "factory": "./cc/index",
+      "schema": "./cc/schema.json"
+    }
+  }
+}
