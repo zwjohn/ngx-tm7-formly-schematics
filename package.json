@@ -1,0 +1,29 @@
+{
+  "name": "ngx-tm7-formly-schematics",
+  "version": "1.0.0",
+  "description": "John Zhang's Angular Custom Component Schematic for NGX Formly.",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && jasmine src/**/*_spec.js",
+    "watch": "tsc -p tsconfig.json --watch"
+  },
+  "homepage": "https://github.com/zwjohn/ngx-custom-component-schematics#readme",
+  "keywords": [
+    "schematics",
+    "Angular Schematics"
+  ],
+  "author": "John Zhang",
+  "license": "MIT",
+  "schematics": "./src/collection.json",
+  "dependencies": {
+    "@angular-devkit/core": "^10.0.4",
+    "@angular-devkit/schematics": "^10.0.4",
+    "typescript": "~3.9.7"
+  },
+  "devDependencies": {
+    "@types/node": "^12.11.1",
+    "@types/jasmine": "~3.5.0",
+    "jasmine": "^3.5.0"
+  },
+  "main": "index.js"
+}
