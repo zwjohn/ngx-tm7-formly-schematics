@@ -1,13 +1,12 @@
 import { Injectable } from '@angular/core';
 import { FormlyFieldConfig } from "@ngx-formly/core";
 import { HttpClient } from "@angular/common/http";
-import { AppLabelService } from "../../../../../shared/services/app-label.service";
-import { AppOptionService } from "../../../../../shared/services/app-option.service";
+import { AppLabelService } from "../../../../shared/services/app-label.service";
+import { AppOptionService } from "../../../../shared/services/app-option.service";
 import { Observable } from "rxjs";
-import { environment } from "../../../../../environments/environment";
-import { populateTemplateAssets } from "../../../../../shared/others/utils/formly-utils";
-import { getFunctionsByPrefix } from "../../../../../shared/others/utils/utility-functions";
-
+import { environment } from "../../../../environments/environment";
+import { populateTemplateAssets } from "../../../../shared/others/utils/formly-utils";
+import { getFunctionsByPrefix } from "../../../../shared/others/utils/utility-functions";
 @Injectable({
   providedIn: 'root'
 })
